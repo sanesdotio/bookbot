@@ -6,8 +6,8 @@ def main():
         
         print("--- Begin report of books/frankenstein.txt ---")
         print(f"The file contains {word_count} words.")
-        for characters in characters_list:
-            print(f"The character '{characters['character']}' appears {characters['count']} times.")
+        for character in characters_list:
+            print(f"The character '{character['character']}' appears {character['count']} times.")
         print("--- End report of books/frankenstein.txt ---")
         
 def count_words(text):
